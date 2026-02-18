@@ -9,10 +9,10 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(40); // typing speed
+  const [delta, setDelta] = useState(40);
 
   const toRotate = ["Frontend Developer"];
-  const period = 2000; // pause after full word
+  const period = 2000;
 
   useEffect(() => {
     const tick = () => {
@@ -42,15 +42,26 @@ export const Banner = () => {
 
     const ticker = setInterval(tick, delta);
     return () => clearInterval(ticker);
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [text, delta, isDeleting, loopNum]); 
-  
+  }, [text, delta, isDeleting, loopNum]);
 
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="align-items-center">
+      
+        <Row className="align-items-center flex-md-row-reverse">
+          
+        
+          <Col xs={12} md={6} xl={5}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={headerImg} alt="Portrait of Elena" className="avatar-img" />
+                </div>
+              }
+            </TrackVisibility>
+          </Col>
+
+    
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
@@ -63,8 +74,9 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
+               
                   <p>
-                    I specialize in building responsive, user-friendly web applications with React.
+                    I specialize in building responsive, user-friendly web applications with React/Node/Redux.
                     I enjoy creating clean code, intuitive interfaces, and modern designs.
                     I’m eager to contribute my skills to a professional team and grow as a developer
                     through new challenges and exciting projects.
@@ -77,7 +89,6 @@ export const Banner = () => {
                     Download CV 
                   </a>
 
-                  {/* Соцсети под кнопкой */}
                   <div className="social-icons mt-3 d-flex gap-3">
                     <a href="https://t.me/elenafeela" target="_blank" rel="noreferrer" className="social-link">
                       <FaTelegramPlane size={20} />
@@ -89,16 +100,6 @@ export const Banner = () => {
                       <FaEnvelope size={20} />
                     </a>
                   </div>
-                </div>
-              }
-            </TrackVisibility>
-          </Col>
-
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Portrait of Elena" className="avatar-img" />
                 </div>
               }
             </TrackVisibility>

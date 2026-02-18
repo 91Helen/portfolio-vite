@@ -15,14 +15,14 @@ const AppContent = ({ visible }) => {
 
   useEffect(() => {
     if (visible) {
-      // Плавное проявление всего контейнера
+   
       gsap.fromTo(
         contentRef.current,
         { opacity: 0 },
         { opacity: 1, duration: 1, ease: "power2.out" }
       );
 
-      // Анимация «всплытия» внутренних блоков
+      
       gsap.fromTo(
         ".section-anchor",
         { opacity: 0, y: 40 },
@@ -42,9 +42,7 @@ const AppContent = ({ visible }) => {
     <div className="App" ref={contentRef} style={{ opacity: 0 }}>
       <NavBar />
       
-      {/* ВАЖНО: Эти id — единственные на странице. 
-        Внутри компонентов Banner, Skills и т.д. удали атрибуты id, если они там есть.
-      */}
+     
       <section id="home" className="section-anchor">
         <Banner />
       </section>

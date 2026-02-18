@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          {/* Левая часть */}
+       
           <Col xs={12} sm={6} className="d-flex align-items-center">
             <img
               src={logo}
@@ -22,7 +22,6 @@ export const Footer = () => {
             </span>
           </Col>
 
-          {/* Правая часть: соцсети + копирайт */}
           <Col xs={12} sm={6} className="text-center text-sm-end">
             <div className="footer-social-icons">
               <a
@@ -43,7 +42,7 @@ export const Footer = () => {
                 <FaEnvelope />
               </a>
             </div>
-            <p className="footer-copy">© 2025. All Rights Reserved</p>
+            <p className="footer-copy">© 2026. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

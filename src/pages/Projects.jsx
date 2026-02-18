@@ -37,7 +37,7 @@ export const ProjectsSection = () => {
         {({ isVisible }) => (
           <div className={`projects-bx ${isVisible ? "animate__animated animate__fadeIn" : ""}`}>
             <h2>My Projects</h2>
-            <p>Here are some of the projects I’ve built using React, APIs and modern front-end tools.</p>
+            <p>Here are some of the projects I’ve built using React, Redux, Node, APIs and modern front-end tools.</p>
 
             <div className="row">
               {visibleProjects.map((project, index) => (

@@ -12,32 +12,23 @@ const NavBar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-
-      // 1. Фон при скролле
+      
+ 
       setScrolled(currentScrollY > 50);
 
-      // 2. Логика скрытия навбара
+   
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        // СКРЫВАЕМ навбар при скролле вниз, ТОЛЬКО если меню ЗАКРЫТО
-        if (!expanded) {
-          setVisible(false);
-        }
+        setVisible(false);
+        if (expanded) setExpanded(false); 
       } else {
-        // ПОКАЗЫВАЕМ при скролле вверх
         setVisible(true);
       }
-
-      // 3. АВТО-ЗАКРЫТИЕ шторки при скролле вниз
-      if (currentScrollY > lastScrollY && expanded) {
-        setExpanded(false);
-      }
-
       setLastScrollY(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY, expanded]); // Добавили expanded в зависимости
+  }, [lastScrollY, expanded]);
 
   return (
     <Navbar 
@@ -45,11 +36,10 @@ const NavBar = () => {
       fixed="top"
       expanded={expanded}
       onToggle={(isExpanded) => setExpanded(isExpanded)}
-      // Если меню открыто (expanded), класс navbar--hidden НЕ должен добавляться
-      className={`${scrolled ? "scrolled" : ""} ${(!visible && !expanded) ? "navbar--hidden" : ""}`}
+      className={`${scrolled ? "scrolled" : ""} ${!visible ? "navbar--hidden" : ""}`}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#home" onClick={() => setExpanded(false)}>
           <img src={logo} alt="Logo" style={{ width: '42px' }} />
           <span className="brand-text ms-2">
             <span className="brand-white">Filatova</span>{" "}
