@@ -47,7 +47,7 @@ I am always open to interesting projects and collaborations:
 * **Email:** filatovae047@gmail.com
 
 ---
-*Created with a focus on performance and visual aesthetics.*
+
 
 **With love, Elena ❤️**
 
