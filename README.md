@@ -95,7 +95,7 @@ I am always open to interesting projects and collaborations:
 Я всегда открыта для интересных проектов и предложений:
 
 * **GitHub:** [91Helen](https://github.com/91Helen)
-* **Telegram:** ["https://t.me/elenafeela"]
+* **Telegram:** [(https://t.me/elenafeela)]
 * **Email:** filatovae047@gmail.com
 
 ---
