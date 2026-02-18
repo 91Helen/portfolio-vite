@@ -44,64 +44,14 @@ I am always open to interesting projects and collaborations:
 
 * **GitHub:** [91Helen](https://github.com/91Helen)
 * **Telegram:** [@elenafeela](https://t.me/elenafeela)
-* **Email:** filatovae047@gmail.com
+* **Email:** [filatovae047@gmail.com](mailto:filatovae047@gmail.com)
 
 ---
 
+<p align="center">
+  <strong>With love, Elena ❤️</strong>
+</p>
 
-**With love, Elena ❤️**
 
 
-# 🌌 Modern Frontend Portfolio | Elena Filatova
-> **Russian Version** 
 
----
-
-![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![GSAP](https://img.shields.io/badge/GSAP-green?style=for-the-badge&logo=greensock&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-
-Портфолио- высокотехнологичное SPA-приложение, выполнено в глубоком «космическом» стиле с использованием современных методик фронтенд-разработки.
-
-## 🚀 Ключевые особенности
-
-* **Premium Animations:** Использование **GSAP** для создания плавных, кинематографичных переходов и эффектов появления.
-* **Interactive Experience:** Интерактивный бэкграунд с динамическими частицами, реагирующими на движение курсора (эффект параллакса).
-* **Solid Architecture:** Чистый код на **React 18** с использованием функциональных компонентов и хуков (`useState`, `useMemo`, `useRef`).
-* **Responsive & Adaptive:** Благодаря **Bootstrap 5** и кастомным медиа-запросам, интерфейс идеально выглядит на экранах от 320px до 4K.
-* **Purity & Performance:** Код оптимизирован под строгие правила React (Idempotency), что обеспечивает стабильность и высокую скорость рендеринга.
-
-## 🛠 Технологический стек
-
-* **Frontend:** React (Vite)
-* **Animation Engine:** GSAP (GreenSock)
-* **Layout & Grid:** Bootstrap 5 + Flexbox/Grid
-* **Styling:** CSS3 с использованием CSS-переменных для динамической смены тем.
-* **Linter:** ESLint (с конфигурацией для React Compiler)
-
-## 💻 Установка и запуск
-
-1.  Клонируйте проект:
-    ```bash
-    git clone [https://github.com/91Helen/portfolio-vite.git](https://github.com/91Helen/portfolio-vite.git)
-    ```
-2.  Установите зависимости:
-    ```bash
-    npm install
-    ```
-3.  Запустите dev-сервер:
-    ```bash
-    npm run dev
-    ```
-
-## 📬 Контакты
-
-Я всегда открыта для интересных проектов и предложений:
-
-* **GitHub:** [91Helen](https://github.com/91Helen)
-* **Telegram:** [@elenafeela](https://t.me/elenafeela)
-* **Email:** filatovae047@gmail.com
-
----
-**С любовью, Елена ❤️**
