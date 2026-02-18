@@ -49,8 +49,13 @@ I am always open to interesting projects and collaborations:
 ---
 *Created with a focus on performance and visual aesthetics.*
 
-**With love, Elena**
+**With love, Elena ❤️**
+
+
 # 🌌 Modern Frontend Portfolio | Elena Filatova
+> **Russian Version** 
+
+---
 
 ![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![GSAP](https://img.shields.io/badge/GSAP-green?style=for-the-badge&logo=greensock&logoColor=white)
@@ -99,4 +104,4 @@ I am always open to interesting projects and collaborations:
 * **Email:** filatovae047@gmail.com
 
 ---
-*Created with focus on performance and visual aesthetics.*
+**С любовью, Елена ❤️**
