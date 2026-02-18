@@ -1,4 +1,7 @@
-# 🌌 Modern Frontend Portfolio | Elena Filatova
+<h1>
+  <img src="https://github.com/91Helen/portfolio-vite/blob/main/logo22.png?raw=true" width="40" style="vertical-align: middle;"> 
+  Modern Frontend Portfolio | Elena Filatova
+</h1>
 
 ![React](https://img.shields.io/badge/react-%2320232d.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![GSAP](https://img.shields.io/badge/GSAP-green?style=for-the-badge&logo=greensock&logoColor=white)
