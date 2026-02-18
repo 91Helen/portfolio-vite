@@ -1,5 +1,5 @@
 <h1>
-  <img src="https://github.com/91Helen/portfolio-vite/blob/main/logo22.png?raw=true" width="40" style="vertical-align: middle;"> 
+  <img src="https://github.com/91Helen/portfolio-vite/blob/main/logo-light.png?raw=true" width="70" style="vertical-align: middle;"> 
   Modern Frontend Portfolio | Elena Filatova
 </h1>
 
