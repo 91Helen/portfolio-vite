@@ -50,6 +50,17 @@ I am always open to interesting projects and collaborations:
 * **Email:** [filatovae047@gmail.com](mailto:filatovae047@gmail.com)
 
 ---
+### 💼 Professional Experience
+
+**Frontend Developer at AL TECH LABS LTD** (Feb 2026 – June 2026)
+- Implemented **Feature-Sliced Design (FSD)** for a scalable and modular application architecture.
+- Developed a design system that reduced layout development time by **50%**.
+- Contributed to **MERN-stack** (MongoDB, Express.js, React, Node.js) web applications and Redux state management.
+- Optimized CSS structure and maintainability using **SASS/SCSS** preprocessors.
+- Ensured **cross-browser and mobile responsiveness** for optimal performance across various devices.
+- Collaborated in an agile environment, actively participating in technical discussions and complex problem-solving.
+- 📜 [VIEW RECOMMENDATION LETTER](https://github.com/91Helen/portfolio-vite/blob/main/Elena%20Filatova.pdf)
+ ---
 
 <p align="center">
   <strong>With love, Elena ❤️</strong>
